@@ -1,6 +1,6 @@
 <img align="right" src="ubnt.png" width="305" alt="Ubuntu 24.10 Running On A OnePlus Ace 3">
 
-# Ubuntu for OnePlus 12R/Ace 3
+# Ubuntu for OnePlus 11 5G
 This repo contians **Base Guide for installation/upgrading** and **Scripts for automatic building of Ubuntu RootFS, Mainline Kernel, Firmware package, ALSA configs** for OnePlus 12R/Ace 3
 
 ### [**Project status**](https://github.com/users/jiganomegsdfdf/projects/3/views/1)
