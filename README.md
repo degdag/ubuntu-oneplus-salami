@@ -1,18 +1,18 @@
 <img align="right" src="ubnt.png" width="305" alt="Ubuntu 24.10 Running On A OnePlus Ace 3">
 
 # Ubuntu for OnePlus 11 5G
-This repo contians **Base Guide for installation/upgrading** and **Scripts for automatic building of Ubuntu RootFS, Mainline Kernel, Firmware package, ALSA configs** for OnePlus 12R/Ace 3
+This repo contians **Base Guide for installation/upgrading** and **Scripts for automatic building of Ubuntu RootFS, Mainline Kernel, Firmware package, ALSA configs** for OnePlus 11 5G
 
 ### [**Project status**]
 
 # Where do I get the needed files?
-Just go to the "Actions" tab, open the latest build and download files named **rootfs_(Desktop Environment)_(Kernel version)_A(Android Version)** and **boot-oneplus-aston_(Kernel version)_(Phone RAM Size)G_A(Android Version).img**
+Just go to the "Actions" tab, open the latest build and download files named **rootfs_(Desktop Environment)_(Kernel version)_A(Android Version)** and **boot-oneplus-salami_(Kernel version)_(Phone RAM Size)G_A(Android Version).img**
 <br>For upgrading - download all available files, **except for rootfs**
 
 ## Upgrading steps (From running Ubuntu)
 - Unpack all the .zip files you downloaded into one folder
 - Open terminal and go to the folder where you unpacked all .zip files into
-- Run "sudo dpkg -i *-oneplus-aston.deb"
+- Run "sudo dpkg -i *-oneplus-salami.deb"
 - If you use flashing instead of **fastboot boot**: flash a new boot image using "dd if="**path to boot.img**" of=/dev/disk/by-partlabel/boot_**('a' or 'b')**"
 - Reboot using new image
 
