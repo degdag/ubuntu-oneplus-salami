@@ -1,0 +1,6 @@
+Package: linux-oneplus-salami
+Version: 7.3.0-sm8550
+Architecture: arm64
+Maintainer: degdag
+Section: kernel
+Description: Kernel and Modules for OnePlus 11 5G
